@@ -31,8 +31,10 @@ This project allows you to migrate issues from one GitHub repository to another.
 
 ## Running the project 
 
-  Extract the issues using the command bellow
+  ```bash
+  # Extract the issues using the command bellow
     node downloadIssues.js
   
-  Clone the issues into the destination repository using the following command
+  # Clone the issues into the destination repository using the following command
     node uploadToRepo.js
+  ```
