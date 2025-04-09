@@ -18,8 +18,8 @@ This project allows you to migrate issues from one GitHub repository to another.
 
    ```bash
 # Clone the repository
-  git clone https://github.com/username/github-issues-migrator.git
-  cd github-issues-migrator
+  git clone https://github.com/username/github-issue-migrator.git
+  cd github-issue-migrator
 
 # Install dependencies 
   npm install
