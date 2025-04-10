@@ -16,7 +16,7 @@ This project allows you to migrate issues from one GitHub repository to another.
 
 ## Installation
 
-   ```bash
+  ```bash
 # Clone the repository
   git clone https://github.com/username/github-issue-migrator.git
   cd github-issue-migrator
@@ -28,6 +28,16 @@ This project allows you to migrate issues from one GitHub repository to another.
   create .env file
   add GITHUB_TOKEN
 ```
+
+## Configuration
+
+  ```bash
+  # Add the SOURCE_REPO in
+    downloadIssues.js
+    
+  # Add the TARGET_REPO in
+    uploadToRepo.js
+  ```
 
 ## Running the project 
 
